@@ -755,30 +755,13 @@ async function claim() {
        
      } catch (error) {
         loadingStop();
-        Dreamer.error("Level is not success",2000);
+        Dreamer.error("Mint is not success",2000);
         return;
      }
    
-     let contract = new ethers.Contract("0xC0Bd7503B7c36c6C73b546DBf8B1b46Fa7d66D13", mintAbi, walletWithProvider);
-     try {
-     
-             var claimToken = await contract.claimToken();
-         
-         try {
-          await claimToken.wait(); 
-         } catch (error) {
-             
-         }
-       
-     } catch (error) {
-         console.log(error);
-         loadingStop();
-         Dreamer.error("Claim is not success",2000);
-         return;
-     }
    
      loadingStop();
-     Dreamer.success("Claim is success",2000);
+     Dreamer.success("Mint is success",2000);
         
 }
 
