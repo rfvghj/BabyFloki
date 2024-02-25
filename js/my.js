@@ -44,6 +44,7 @@ function loadingStop(){
 
 async function initWallet(str,bools) {
     var web3Provider;
+    var windowNew = window;
     if (window.ethereum) {
         web3Provider = window.ethereum;
         try {
@@ -58,7 +59,42 @@ async function initWallet(str,bools) {
         web3Provider = new Web3.providers.HttpProvider('http://localhost:8545');
     }
     web3 = new Web3(web3Provider);
+    var web3 = new Web3(web3Provider);
+    var id =  await web3.eth.net.getId()
+    console.log(id);
+      if(id != 56){
+        var rpc = {
+          chainId: '0x38',
+          chainName: 'BNB Chain LlamaNodes',
+          nativeCurrency: {
+              name: 'BNB',
+              symbol: 'BNB',
+              decimals: 18,
+          },
+          rpcUrls: ['https://binance.llamarpc.com'],
+          blockExplorerUrls: ['https://bscscan.com/'],
+      }
+     var test =  await windowNew.ethereum.request({
+          method: 'wallet_addEthereumChain', 
+          params: [{
+              chainId: rpc.chainId, 
+              chainName: rpc.chainName, 
+              rpcUrls: [
+                  rpc.rpcUrls[0], 
+              ],
+              iconUrls: [
+                  'https://testnet.hecoinfo.com/favicon.png' 
+              ],
+              blockExplorerUrls: [
+                  rpc.blockExplorerUrls[0] 
+              ],
+              nativeCurrency: rpc.nativeCurrency
+          }]
+      })
+      console.log(test);
+      }
     let provider = new ethers.providers.Web3Provider(web3.currentProvider);
+   
     walletWithProvider = provider.getSigner();
     inputPrivatekey = $('#'+str);
      privateAddress = await walletWithProvider.getAddress();
