@@ -1,0 +1,1619 @@
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 992px) {
+    .wap_nav {
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        z-index: 7777;
+    }
+
+    .wap_nav .logo {
+        float: left;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+
+    .wap_nav .logo img {
+        height: 24px;
+        margin-top: 13px;
+        margin-left: 10px;
+    }
+
+    body {
+        padding-top: 50px;
+    }
+
+    .pc {
+        display: none;
+    }
+
+    .wap {
+        display: block;
+    }
+
+    /* Header Styles */
+    .head {
+        /* Add header styles here */
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        z-index: 777;
+    }
+
+    /* Logo Styles */
+    .head .logo {
+        /* Add logo styles here */
+        float: left;
+        padding-top: calc(51 / 992 * 100vw);
+        padding-left: calc(49 / 992 * 100vw);
+    }
+
+    .head .logo.pc {
+        /* Add logo styles for desktop here */
+    }
+
+    .head .logo a {
+        /* Add logo link styles here */
+    }
+
+    .head .logo img.pulseAni {
+        /* Add image styles here */
+        width: calc(130 / 992 * 100vw);
+    }
+
+    /* Navigation Styles */
+    .head .nav {
+        /* Add navigation styles here */
+        float: left;
+        margin-left: calc(126 / 992 * 100vw);
+        padding-top: calc(60 / 992 * 100vw);
+    }
+
+    .head .nav.pc {
+        /* Add navigation styles for desktop here */
+    }
+
+    .head .nav ul {
+        /* Add styles for the <ul> element here */
+    }
+
+    .head .nav ul li {
+        /* Add styles for list items here */
+        float: left;
+        position: relative;
+        margin-right: calc(103 / 992 * 100vw);
+    }
+
+    .head .nav ul li h2.h2tit {
+        /* Add styles for the headings within list items here */
+    }
+
+    .head .nav ul li a {
+        /* Add styles for the links within list items here */
+        font-size: calc(30 / 992 * 100vw);
+        font-family: AkzidenzGroteskBQ;
+        font-weight: normal;
+        color: #FFFFFF;
+        display: block;
+        line-height: 1;
+    }
+
+    /* "Connect" Button Styles */
+    .head .more {
+        /* Add styles for the "Connect" button here */
+        width: calc(264 / 992 * 100vw);
+        line-height: calc(83 / 992 * 100vw);
+        float: right;
+        margin-top: calc(33 / 992 * 100vw);
+        margin-right: calc(38 / 992 * 100vw);
+        background: url(../images/more.png) no-repeat center center;
+        background-size: 100%;
+        text-align: center;
+        font-size: calc(30 / 992 * 100vw);
+        font-family: AkzidenzGroteskBQ;
+        font-weight: normal;
+        color: #000000;
+    }
+
+    /* Section1 Styles */
+    .section1 {
+        /* Add styles for section1 here */
+        position: relative;
+        background: url(../images/bg1.png) no-repeat center center;
+        background-size: cover;
+        margin-bottom: 17vw;
+    }
+
+    /* Image Box Styles */
+    .section1 .imgbox1 {
+        /* Add styles for imgbox1 here */
+    }
+
+    .section1 .imgbox1 img {
+        /* Add styles for the image inside imgbox1 here */
+        width: 100%;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 0;
+    }
+
+    .section1 .left {
+        /* Add styles for the left column here */
+        position: relative;
+        z-index: 4;
+        /* float:left;*/
+        padding-top: calc(293 / 992 * 100vw);
+    }
+
+    /* Image Box Styles for Left Column */
+    .section1 .left .imgbox2 {
+        /* Add styles for imgbox2 here */
+        text-align: right;
+        padding-right: calc(55 / 992 * 100vw);
+    }
+
+    .section1 .left .imgbox2 img {
+        width: calc(188 / 992 * 100vw);
+    }
+
+    /* Section1 Styles */
+    .section1 .left .con {
+        width: calc(686 / 992 * 100vw);
+    }
+
+    .section1 .left .imgbox3 img {
+        width: calc(655 / 992 * 100vw);
+        margin-top: calc(-79 / 992 * 100vw);
+    }
+
+    .section1 .left .imgbox3 {
+        /* Add styles for imgbox3 here */
+    }
+
+    /* Description Styles */
+    .section1 .dec {
+        /* Add styles for the description here */
+        font-size: calc(24 / 992 * 100vw);
+        font-family: AkzidenzGroteskBQ;
+        font-weight: normal;
+        color: #000;
+       /* transform: rotate(-5deg) skewX(-10deg);*/
+        line-height: 1.6;
+        transform-origin: left;
+        padding-left: calc(8 / 992 * 100vw);
+        letter-spacing: calc(1 / 992 * 100vw);
+    }
+
+    /* Link Styles */
+    .section1 .link {
+        /* Add styles for the links container here */
+        font-size: 0;
+        padding-top: calc(30 / 992 * 100vw);
+        padding-left: calc(41 / 992 * 100vw);
+    }
+
+    .section1 .link a {
+        /* Add styles for the links inside the container here */
+    }
+
+    .section1 .link a img {
+        /* Add styles for the images inside the links here */
+        width: calc(118 / 992 * 100vw);
+    }
+
+    /* Right Column Styles */
+    .section1 .right {
+        /* Add styles for the right column here */
+    }
+
+    /* Image Box Styles for Right Column */
+    .section1 .right .imgbox4 img {
+
+width: 39vw;
+
+position: absolute;
+
+right: calc(269 / 992 * 100vw);
+
+top: calc(-8 / 992 * 100vw);
+
+z-index: 4;
+
+}
+
+    .section1 .right .imgbox5 img {
+        /* Add styles for imgbox5 here */
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 55vw;
+    }
+
+    /* Section2 Styles */
+    .section2 {
+        /* Add styles for section2 here */
+    }
+
+    /* Wrapper Styles */
+    .section2 .wrap {
+        position: relative;
+    }
+
+    /* Left Column Styles */
+    .section2 .left {
+        width: 57vw;
+    }
+
+    /* Title Styles */
+    .section2 .title {
+        /* Add styles for the title here */
+        background: url(../images/titbg1.png) no-repeat left bottom;
+        padding-bottom: calc(32 / 992 * 100vw);
+        background-size: auto calc(24 / 992 * 100vw);
+    }
+
+    .section2 .title img {
+        /* Add styles for the image inside the title here */
+        height: calc(92 / 992 * 100vw);
+    }
+
+    /* Description Styles */
+    .section2 .dec {
+        /* Add styles for the description here */
+        font-size: calc(24 / 992 * 100vw);
+        font-family: AkzidenzGroteskBQ;
+        font-weight: normal;
+        color: #000;
+        line-height: 1.5;
+        letter-spacing: calc(1 / 992 * 100vw);
+        padding-top: calc(55 / 992 * 100vw);
+    }
+
+    .section2 .dec p {
+        /* Add styles for the paragraphs inside the description here */
+        padding-bottom: calc(30 / 992 * 100vw);
+    }
+
+    /* Right Column Styles */
+    .section2 .right {
+        /* Add styles for the right column here */
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: calc(280 / 992 * 100vw);
+    }
+
+    /* Image Styles */
+    .section2 .right img.ani1 {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    .section2 .right img.ani2 {
+        width: calc(304 / 992 * 100vw);
+        margin: auto;
+        display: block;
+        z-index: 4;
+        position: relative;
+        margin-top: calc(48 / 992 * 100vw);
+    }
+
+    .section2 .right img.ani3 {
+        position: absolute;
+        left: calc(43 / 992 * 100vw);
+        top: calc(93 / 992 * 100vw);
+        z-index: 6;
+        width: calc(214 / 992 * 100vw);
+    }
+
+    /* Section3 Styles */
+    .section3 {
+        /* Add styles for section3 here */
+        padding-top: calc(200 / 992 * 100vw);
+    }
+
+    /* Wrapper Styles */
+    .section3 .wrap {
+        /* No additional styles for .wrap in Section3 */
+    }
+
+    /* Title Styles */
+    .section3 .title {
+        /* Add styles for the title here */
+    }
+
+    .section3 .title img {
+        /* Add styles for the image inside the title here */
+        width: 100%;
+    }
+
+    /* Description Styles */
+    .section3 .dec {
+        font-size: calc(24 / 992 * 100vw);
+        font-family: AkzidenzGroteskBQ;
+        font-weight: normal;
+        color: #000;
+        line-height: 1.5;
+        letter-spacing: calc(1 / 992 * 100vw);
+        width: calc(1086 / 992 * 100vw);
+        max-width: 100%;
+        margin-top: calc(-76 / 992 * 100vw);
+        margin-bottom: calc(76 / 992 * 100vw);
+    }
+
+    /* List Styles */
+    .section3 .list {
+        /* Add styles for the list here */
+    }
+
+    .section3 .list ul {
+    }
+
+    .section3 .list li {
+        height: calc(439 / 992 * 100vw);
+        background: linear-gradient(255deg,#fff,#fff);
+        border: calc(1 / 992 * 100vw) solid #000000;
+        border-radius: calc(65 / 992 * 100vw);
+        position: relative;
+        margin-bottom: calc(37 / 992 * 100vw);
+    }
+
+    /* Image Box Styles */
+    .section3 .imgbox {
+        /* Add styles for the image box here */
+        position: absolute;
+        top: 50%;
+        left: 2%;
+        -o-transform: translate(0%,-50%);
+        -webkit-transform: translate(0%,-50%);
+        -moz-transform: translate(0%,-50%);
+        -ms-transform: translate(0%,-50%);
+        transform: translate(0%,-50%);
+    }
+
+    .section3 .imgbox img {
+        /* Add styles for the images inside imgbox here */
+        width: calc(360 / 992 * 100vw);
+    }
+
+    /* Text Styles */
+    .section3 .text {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 60%;
+        -o-transform: translate(-50%,-50%);
+        -webkit-transform: translate(-50%,-50%);
+        -moz-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+        text-transform: uppercase;
+    }
+
+    .section3 .text .title {
+        /* Add styles for the title inside text here */
+        font-size: calc(51 / 992 * 100vw);
+        font-family: AkzidenzGroteskBQ;
+        font-weight: bold;
+        color: #000;
+    }
+
+    .section3 .text .dec {
+        /* Add styles for the description inside text here */
+        margin: 0;
+        width: 100%;
+    }
+
+    /* "Enter" Link Styles */
+    .section3 .more {
+        width: calc(179 / 992 * 100vw);
+        height: calc(70 / 992 * 100vw);
+        text-align: center;
+        line-height: calc(49 / 992 * 100vw);
+        position: absolute;
+        background: url(../images/enter.png) no-repeat center center;
+        background-size: 100%;
+        font-size: calc(26 / 992 * 100vw);
+        font-family: AkzidenzGroteskBQ;
+        font-weight: normal;
+        color: #000000;
+        text-transform: uppercase;
+        position: absolute;
+        top: 50%;
+        right: calc(8 / 992 * 100vw);
+        -o-transform: translate(0%,-50%);
+        -webkit-transform: translate(0%,-50%);
+        -moz-transform: translate(0%,-50%);
+        -ms-transform: translate(0%,-50%);
+        transform: translate(0%,-50%);
+    }
+
+    /* Section4 Styles */
+    .section4 {
+        /* Add styles for section4 here */
+    }
+
+    /* Wrapper Styles */
+    .section4 .wrap {
+        /* Add styles for the wrapper in section4 here */
+    }
+
+    /* Title Styles */
+    .section4 .wrap > .title {
+        text-align: center;
+        margin-top: calc(86 / 992 * 100vw);
+    }
+
+    .section4 .title .center {
+        position: relative;
+        display: inline-block;
+    }
+
+    .section4 .title img.title {
+        /* Add styles for the image inside the title here */
+        width: calc(446 / 992 * 100vw);
+    }
+
+    .section4 .title img.hand {
+        /* Add styles for the hand image inside the title here */
+        width: calc(165 / 992 * 100vw);
+        position: absolute;
+        left: calc(-72 / 992 * 100vw);
+        top: calc(44 / 992 * 100vw);
+    }
+
+    /* Content Styles */
+    .section4 .content {
+        /* Add styles for the content in section4 here */
+    }
+
+    /* Subtitle Styles */
+    .section4 .title1 {
+        /* Add styles for the subtitle here */
+    }
+
+    .section4 .title1 img {
+        /* Add styles for the image inside the subtitle here */
+        width: calc(504 / 992 * 100vw);
+        margin-top: calc(120 / 992 * 100vw);
+    }
+
+    /* Description Styles */
+    .section4 .dec {
+        font-size: calc(24 / 992 * 100vw);
+        font-family: AkzidenzGroteskBQ;
+        font-weight: normal;
+        color: #FFFFFF;
+        padding-top: calc(19 / 992 * 100vw);
+        margin-bottom: calc(24 / 992 * 100vw);
+        letter-spacing: calc(1 / 992 * 100vw);
+    }
+
+    /* Detail Styles */
+    .section4 .detail {
+        position: relative;
+        padding-top: 16vw;
+    }
+
+    /* Animation Styles */
+    .section4 .ani1,.section4 .ani2 {
+        /* Add styles for animations in section4 here */
+    }
+
+    .section4 .detail + .dec {
+        text-align: center;
+    }
+
+    .section4 .ani1 img {
+        width: calc(348 / 992 * 100vw);
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 5;
+    }
+
+    /* Animation Styles */
+    .section4 .ani2 img {
+        /* Add styles for the animated images inside the animation containers here */
+        position: absolute;
+        bottom: calc(-50 / 992 * 100vw);
+        width: calc(300 / 992 * 100vw);
+        left: 0;
+    }
+
+    /* Number Styles */
+    .section4 .num {
+        /* Add styles for the number containers here */
+        float: left;
+        width: calc(174 / 992 * 100vw);
+        text-align: center;
+    }
+
+    .section4 .num img {
+        /* Add styles for the number images inside the number containers here */
+        height: calc(67 / 992 * 100vw);
+        margin-top: calc(36 / 992 * 100vw);
+    }
+
+    /* Title Styles within Detail */
+    .section4 .tit {
+        /* Add styles for the titles within the detail section here */
+        font-size: calc(57 / 992 * 100vw);
+        font-family: AkzidenzGroteskBQ;
+        font-weight: normal;
+        color: #000000;
+        line-height: calc(134 / 992 * 100vw);
+        font-weight: bold;
+        font-style: italic;
+    }
+
+    /* Adjustments for List Items */
+    .section4 li:nth-child(2) {
+        margin-left: calc(172 / 992 * 100vw);
+    }
+
+    .section4 li:nth-child(3) {
+        margin-left: calc(345 / 992 * 100vw);
+    }
+
+    /* Bullet List Styles */
+    .section4 ul {
+    }
+
+    .section4 li {
+        width: calc(794 / 992 * 100vw);
+        height: calc(131 / 992 * 100vw);
+        background: url(../images/titbg.png) no-repeat center center;
+        background-size: 100% 100%;
+        margin-bottom: calc(63 / 992 * 100vw);
+    }
+
+    /* Section5 Styles */
+    .section5 {
+        /* Add styles for section5 here */
+    }
+
+    /* Wrapper Styles */
+    .section5 .wrap {
+        /* Add styles for the wrapper in section5 here */
+    }
+
+    /* Title Styles */
+    .section5 .title {
+        /* Add styles for the title here */
+        text-align: center;
+        margin-top: calc(41 / 992 * 100vw);
+    }
+
+    .section5 .title .center {
+        position: relative;
+        display: inline-block;
+    }
+
+    .section5 .title img.title {
+        /* Add styles for the image inside the title here */
+        width: calc(446 / 992 * 100vw);
+    }
+
+    .section5 .title img.hand {
+        /* Add styles for the hand image inside the title here */
+        width: calc(165 / 992 * 100vw);
+        position: absolute;
+        left: calc(-72 / 992 * 100vw);
+        top: calc(44 / 992 * 100vw);
+    }
+
+    /* Content1 Styles */
+    .section5 .content1 {
+        margin-top: calc(180 / 992 * 100vw);
+        position: relative;
+        zoom:1;overflow: hidden;
+        margin-bottom: calc(120 / 992 * 100vw);
+    }
+
+    /* Left Column in Content1 Styles */
+    .section5 .content1 .left {
+        /* Add styles for the left column here */
+        float: left;
+        width: 100%;
+    }
+
+    /* Title2 Styles */
+    .section5 .content1 .title2 {
+        /* Add styles for the title2 here */
+    }
+
+    .section5 .content1 .title2 img {
+        /* Add styles for the image inside title2 here */
+        height: calc(82 / 992 * 100vw);
+    }
+
+    .section5 .content1 .dec1 b {
+        color: #FFC74F;
+        font-weight: normal;
+    }
+
+    /* Description1 Styles */
+    .section5 .content1 .dec1 {
+        font-size: calc(61 / 992 * 100vw);
+        font-family: AkzidenzGroteskBQ;
+        font-weight: normal;
+        color: #FFFFFF;
+        line-height: calc(82 / 992 * 100vw);
+        background: linear-gradient(-255deg,#414141,#010101);
+        border: calc(1 / 992 * 100vw) solid #000000;
+        border-radius: calc(40 / 992 * 100vw);
+        padding-left: calc(56 / 992 * 100vw);
+        margin-top: calc(108 / 992 * 100vw);
+        margin-bottom: calc(30 / 992 * 100vw);
+    }
+
+    /* Description2 Styles */
+    .section5 .content1 .dec2 {
+        background: linear-gradient(-255deg,#414141,#010101);
+        border: calc(1 / 992 * 100vw) solid #000000;
+        border-radius: calc(55 / 992 * 100vw);
+        font-size: calc(33 / 992 * 100vw);
+        font-family: AkzidenzGroteskBQ;
+        font-weight: normal;
+        color: #FFFFFF;
+        padding: calc(27 / 992 * 100vw) 0;
+        padding-bottom: 0;
+    }
+
+    .section5 .content1 .right {
+        width: 100%;
+        float: right;
+        padding-top: 14vw;
+    }
+
+    .section5 .content1 .right img {
+        width: 100%;
+    }
+
+    /* Left Column in Content2 Styles */
+    .section5 .content2 .left {
+        /* Add styles for the left column here */
+    }
+
+    /* Title2 Styles */
+    .section5 .content2 {
+        position: relative;
+    }
+
+    .section5 .content2 .title2 {
+        /* Add styles for the title2 here */
+        margin-bottom: calc(125 / 992 * 100vw);
+    }
+
+    .section5 .content2 .title2 img {
+        /* Add styles for the image inside title2 here */
+        height: calc(84 / 992 * 100vw);
+    }
+
+    .section5 .content2 .dec2 p:after {
+        width: calc(24 / 992 * 100vw);
+        height: calc(24 / 992 * 100vw);
+        background: #FF9600;
+        border: calc(1 / 992 * 100vw) solid #000000;
+        border-radius: calc(50 / 992 * 100vw);
+        position: absolute;
+        border-radius: 4300px;
+        content: "";
+        left: calc(56 / 992 * 100vw);
+        top: calc(17 / 992 * 100vw);
+    }
+
+    /* Description2 Styles */
+    .section5 .content2 .dec2 p {
+        width: calc(601 / 992 * 100vw);
+        line-height: calc(63 / 992 * 100vw);
+        background: linear-gradient(-255deg,#fff,#fff);
+        border: calc(1 / 992 * 100vw) solid #000000;
+        border-radius: calc(31 / 992 * 100vw);
+        font-size: calc(33 / 992 * 100vw);
+        font-family: AkzidenzGroteskBQ;
+        font-weight: normal;
+        color: #000;
+        position: relative;
+        padding-left: calc(90 / 992 * 100vw);
+        margin-bottom: calc(20 / 992 * 100vw);
+    }
+
+    .section5 .content2 .right .ani1 {
+        display: block;
+        margin: auto;
+        position: relative;
+        z-index: 4;
+        margin-top: calc(120 / 992 * 100vw);
+        width: calc(420 / 992 * 100vw);
+    }
+
+    .section5 .content2 .right .ani2 {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 0;
+    }
+
+    /* Right Column in Content2 Styles */
+    .section5 .content2 .right {
+        /* Add styles for the right column here */
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: calc(510 / 992 * 100vw);
+        top: calc(191 / 992 * 100vw);
+    }
+
+    /* Content3 Styles */
+    .section5 .content3 {
+        /* Add styles for content3 here */
+    }
+
+    /* Title2 Styles in Content3 */
+    .section5 .content3 .title2 {
+        padding-top: calc(120 / 992 * 100vw);
+    }
+
+    .section5 .content3 .title2 img {
+        height: calc(100 / 992 * 100vw);
+    }
+
+    /* List Styles */
+    .section5 .list {
+        display: block;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 10vw;
+    }
+
+    /* List Header Styles */
+    .section5 .list .hd {
+        flex: 1.2;
+    }
+
+    .section5 .list .hd .tit b {
+        font-size: calc(150 / 992 * 100vw);
+    }
+
+    .section5 .list .hd .tit {
+        /* Add styles for the title within the header here */
+        font-size: calc(100 / 992 * 100vw);
+        font-family: AkzidenzGroteskBQ;
+        font-weight: normal;
+        color: #FFFFFF;
+        line-height: 1;
+        text-align: center;
+    }
+
+    /* List Right Column Styles */
+    .section5 .list .ri img {
+        width: 92%;
+        display: block;
+        margin: auto;
+    }
+
+    .section5 .list .ri {
+        /* Add styles for the right column in the list here */
+        width: 100%;
+        padding-top: 7vw;
+    }
+
+    /* Swiper Container Styles */
+    .section5 .list .ri .swiper-container {
+        /* Add styles for the swiper container here */
+    }
+
+    /* Swiper Slide Styles */
+    .section5 .list .ri .swiper-slide {
+        /* Add styles for the swiper slide here */
+    }
+
+    /* Swiper Navigation Styles */
+    .section5 .list .ri .swiper-button-next,.section5 .list .ri .swiper-button-prev {
+        /* Add styles for the swiper navigation buttons here */
+        width: calc(229 / 992 * 100vw);
+        height: calc(200 / 992 * 100vw);
+        margin-top: calc(-100 / 992 * 100vw);
+    }
+
+    .section5 .list .ri .swiper-button-prev {
+        background: url(../images/left.png) no-repeat center center;
+        background-size: 100%;
+        left: 0;
+    }
+
+    .section5 .list .ri .swiper-button-next {
+        background: url(../images/right.png) no-repeat center center;
+        background-size: 100%;
+        right: 0;
+    }
+
+    /* Section6 Styles */
+    .section6 {
+        /* Add styles for section6 here */
+    }
+
+    /* Wrapper Styles */
+    .section6 .wrap {
+        /* Add styles for the wrapper in section6 here */
+    }
+
+    /* Title Styles in Section6 */
+    .section6 .title {
+        /* Add styles for the title here */
+        padding-top: calc(80 / 992 * 100vw);
+    }
+
+    .section6 .title img {
+        /* Add styles for the image inside the title here */
+        height: calc(100 / 992 * 100vw);
+        display: block;
+        margin: auto;
+    }
+.section6 .list:before{
+    background-size: calc(350 / 992* 100vw);
+    background-position: center 56%;
+}
+    /* List Styles in Section6 */
+    .section6 .list {
+        margin-top: calc(76 / 992 * 100vw);
+        /* background: url(../images/ul.png) no-repeat center center; */
+        /* background-size: calc(350 / 992 * 100vw); */
+        padding-left: 4vw;
+        padding-right: 4vw;
+    }
+
+    /* List Items Styles in Section6 */
+    .section6 .list ul:after {
+        display: table;
+        clear: both;
+        content: "";
+    }
+
+    .section6 .list li:nth-child(2n) {
+        float: right;
+    }
+
+    .section6 .list li:nth-child(3),.section6 .list li:nth-child(4) {
+        margin-bottom: 0px;
+    }
+
+    .section6 .list li:nth-child(3) {
+        clear: left;
+    }
+
+    .section6 .list li {
+        width: calc(401 / 992 * 100vw);
+        height: calc(999 / 992 * 100vw);
+        float: left;
+        background: url(../images/li.png) no-repeat center center;
+        background-size: 100% 100%;
+        margin-bottom: calc(152 / 992 * 100vw);
+    }
+
+    /* Title in List Item Styles */
+    .section6 .list .tit {
+        font-size: calc(84 / 992 * 100vw);
+        font-family: AkzidenzGroteskBQ;
+        font-weight: normal;
+        color: #FFFFFF;
+        line-height: 1;
+        background: linear-gradient(225deg,#AD8223 0%,#E3A82E 25.1708984375%,#F4E99C 49.1943359375%,#B5772A 72.4365234375%,#FDDA72 99.0234375%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-left: calc(72 / 992 * 100vw);
+        margin-top: calc(100 / 992 * 100vw);
+        display: inline-block;
+        font-weight: bold;
+    }
+
+    /* Description in List Item Styles */
+    .section6 .list .dec {
+        font-size: calc(24 / 992 * 100vw);
+        font-family: AkzidenzGroteskBQ;
+        font-weight: normal;
+        color: #000;
+        line-height: calc(28 / 992 * 100vw);
+        background: url(../images/dec.png) no-repeat calc(46 / 992 * 100vw) top;
+        margin-top: calc(64 / 992 * 100vw);
+        padding-left: calc(74 / 992 * 100vw);
+        padding-right: calc(32 / 992 * 100vw);
+    }
+
+    /* Individual Phase Styles */
+    .section6 .list li:nth-child(1) .tit {
+        /* Add specific styles for Phase 1 title here */
+    }
+
+    .section6 .list li:nth-child(2) .tit {
+        /* Add specific styles for Phase 2 title here */
+    }
+
+    .section6 .list li:nth-child(3) .tit {
+        /* Add specific styles for Phase 3 title here */
+    }
+
+    .section6 .list li:nth-child(4) .tit {
+        /* Add specific styles for Phase 4 title here */
+    }
+
+    /* Phase-Specific Description Styles */
+    .section6 .list li .dec p {
+        /* Add specific styles for Phase 1 description here */
+        padding-bottom: calc(30 / 992 * 100vw);
+    }
+
+    .section6 .list li:nth-child(2) .dec {
+        /* Add specific styles for Phase 2 description here */
+    }
+
+    .section6 .list li:nth-child(3) .dec {
+        /* Add specific styles for Phase 3 description here */
+    }
+
+    .section6 .list li:nth-child(4) .dec {
+        /* Add specific styles for Phase 4 description here */
+    }
+
+    /* Section7 Styles */
+    .section7 {
+        /* Add styles for section7 here */
+        padding-top: calc(107 / 992 * 100vw);
+        text-align: center;
+    }
+
+    /* Wrapper Styles in Section7 */
+    .section7 .wrap {
+        /* Add styles for the wrapper in section7 here */
+    }
+
+    /* Title Styles in Section7 */
+    .section7 .title {
+        /* Add styles for the title here */
+    }
+
+    .section7 .title img {
+        /* Add styles for the image inside the title here */
+        margin-bottom: calc(31 / 992 * 100vw);
+        height: calc(82 / 992 * 100vw);
+    }
+
+    /* Image Box Styles in Section7 */
+    .section7 .imgbox {
+        /* Add styles for the image box here */
+    }
+
+    .section7 .imgbox img {
+        /* Add styles for the image inside the image box here */
+        width: 100%;
+        margin-bottom: calc(38 / 992 * 100vw);
+    }
+
+    /* List Styles in Section7 */
+    .section7 .list {
+        zoom:1;overflow: hidden;
+    }
+
+    /* List Items Styles in Section7 */
+    .section7 .list ul {
+        /* Add styles for the ul element inside list items here */
+    }
+
+    .section7 .list li {
+        float: left;
+        width: 50%;
+        height: calc(155 / 992 * 100vw);
+        position: relative;
+    }
+
+    .section7 .list li img {
+        /* Add styles for the images inside list items here */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -o-transform: translate(-50%,-50%);
+        -webkit-transform: translate(-50%,-50%);
+        -moz-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+        width: 74%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    /* Content Styles in Section7 */
+    .section7 .content {
+        /* Add styles for the content here */
+        position: relative;
+        padding-top: 0;
+        margin-top: calc(0 / 992 * 100vw);
+        padding-bottom: calc(97 / 992 * 100vw);
+    }
+
+    /* Left Column in Content Styles in Section7 */
+    .section7 .content .left {
+        /* Add styles for the left column here */
+        width: calc(473 / 992 * 100vw);
+        position: relative;
+        z-index: 4;
+        float: left;
+        margin-top: 0;
+    }
+
+    /* Animation Styles in Section7 */
+    .section7 .content .ani1 {
+        /* Add styles for the animation containers here */
+        width: 100%;
+    }
+
+    .section7 .content .ani2 {
+        width: calc(113 / 992 * 100vw);
+        position: absolute;
+        left: calc(215 / 992 * 100vw);
+        z-index: 4;
+        top: calc(134 / 992 * 100vw);
+    }
+
+    .section7 .content .ani2 img {
+        /* Add styles for animated images inside animation containers here */
+    }
+
+    /* Right Column in Content Styles in Section7 */
+    .section7 .content .right {
+        /* Add styles for the right column here */
+        float: right;
+        width: calc(758 / 992 * 100vw);
+        position: relative;
+        z-index: 55;
+    }
+
+    .section7 .content .dec a {
+        /* position:relative;*/
+        /* z-index:55;*/
+        display: inline-block;
+        color: #FFBC00;
+    }
+
+    /* Description Styles in Section7 */
+    .section7 .content .dec {
+        /* Add styles for the description here */
+        line-height: calc(88 / 992 * 100vw);
+        background: linear-gradient(90deg,#fff,#fff);
+        border: 1px solid #000000;
+        border-radius: calc(40 / 992 * 100vw);
+        font-size: calc(31 / 992 * 100vw);
+        font-family: AkzidenzGroteskBQ;
+        font-weight: normal;
+        color: #000;
+    }
+
+    /* Link Styles in Section7 */
+    .section7 .content .link {
+        /* Add styles for the link container here */
+        text-align: center;
+        padding-top: calc(30 / 992 * 100vw);
+        z-index: 4;
+        position: relative;
+    }
+
+    .section7 .content .link a {
+        /* Add styles for the links inside the container here */
+    }
+
+    .section7 .content .link img {
+        /* Add styles for the images inside the links here */
+        width: calc(118 / 992 * 100vw);
+    }
+
+    .section7 .content .pb {
+    }
+
+    .section7 .content .pb img {
+        position: absolute;
+        width: 100%;
+        bottom: 0px;
+        left: 0px;
+        z-index: 3;
+    }
+
+    /* Footer Styles */
+    .footer {
+        background: linear-gradient(270deg,#c2a68d,#c2a68d);
+       /* border: 1px solid #000000;*/
+        box-shadow: 0px 0px 60px 0px rgba(255,255,255,0.26);
+        position: relative;
+        padding-bottom: calc(154 / 992 * 100vw);
+    }
+
+    /* Wrapper Styles in Footer */
+    .footer .wrap {
+        /* Add styles for the wrapper in the footer here */
+    }
+
+    /* Left Column in Footer Styles */
+    .footer .left {
+        float: left;
+        padding-top: calc(73 / 992 * 100vw);
+    }
+
+    /* Right Column in Footer Styles */
+    .footer .right {
+        right: calc(64 / 992 * 100vw);
+        position: absolute;
+        top: calc(99 / 992 * 100vw);
+        width: calc(192 / 992 * 100vw);
+        text-align: center;
+    }
+
+    /* Footer Item Styles */
+    .footer .item {
+        margin-right: calc(133 / 992 * 100vw);
+        float: left;
+    }
+
+    /* Footer Item Heading Styles */
+    .footer h2 {
+        font-size: calc(30 / 992 * 100vw);
+        font-family: MiSans;
+        font-weight: bold;
+        color: #FFFFFF;
+    }
+
+    /* Footer Item List Styles */
+    .footer dl {
+        padding-top: calc(40 / 992 * 100vw);
+    }
+
+    .footer dd {
+        /* Add styles for list items here */
+    }
+
+    /* Footer Item Link Styles */
+    .footer dd a {
+        display: block;
+        font-size: calc(31 / 992 * 100vw);
+        font-family: AkzidenzGroteskBQ;
+        font-weight: normal;
+        color: #FFFFFF;
+        line-height: calc(48 / 992 * 100vw);
+    }
+
+    /* Footer Animation Styles */
+    .footer .ani1 {
+        /* Add styles for animations here */
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 0;
+    }
+
+    .footer .ani2 {
+        position: relative;
+        z-index: 4;
+        margin: auto;
+        display: block;
+        margin-top: calc(28 / 992 * 100vw);
+        width: calc(135 / 992 * 100vw);
+    }
+
+    .footer .ani1 img,.footer .ani2 img {
+        /* Add styles for animated images inside animations here */
+    }
+
+    .wrap {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    
+.head {
+    padding-top: calc(32/992*100vw);
+    padding-left: calc(32/992*100vw);
+    padding-right: calc(46/992*100vw);
+    position: static;
+}
+.head .more {
+
+position: fixed;
+
+right: 134px;
+
+top: 8px;
+
+z-index: 999;
+
+margin: 0;
+
+/*display: none;*/
+}
+
+
+
+
+.section5 .content1 .dec2 p:after {
+  width: calc(24 / 992 * 100vw);
+  height: calc(24 / 992 * 100vw);
+  background: #FF00F4;
+  border: calc(1 / 992 * 100vw) solid #000000;
+  border-radius: calc(50 / 992 * 100vw);
+  position: absolute;
+  border-radius: 4300px;
+  content: "";
+  left: calc(56 / 992 * 100vw);
+  top: calc(5 / 992 * 100vw);
+}
+
+.section5 .content1 .dec2 p {
+  padding-left: calc(90 / 992 * 100vw);
+  position: relative;
+  margin-bottom: calc(27 / 992 * 100vw);
+}
+
+
+
+
+
+.alertmodel .center{
+    
+position:absolute;
+    
+top: 50%;
+    
+left: 50%;
+    
+-o-transform: translate(-50%, -50%);
+    
+-webkit-transform: translate(-50%, -50%);
+    
+-moz-transform: translate(-50%, -50%);
+    
+-ms-transform: translate(-50%, -50%);
+    
+transform: translate(-50%, -50%);
+    
+width: calc(1030/992 * 100vw);
+    
+height: calc(735/992 * 100vw);
+    
+background: url(../images/tc.png) no-repeat center center;
+    
+background-size: cover;
+}
+.alertmodel .logo{
+    
+padding-top: calc(83/992 * 100vw);
+    
+padding-left: calc(77/992 * 100vw);
+}
+.alertmodel .logo img{
+    
+height: calc(68/992 * 100vw);
+}
+.alertmodel .title{
+    
+font-size: calc(99/992 * 100vw);
+    
+text-align: center;
+    
+color: #fff;
+    
+line-height: 1;
+    
+text-transform: uppercase;
+    
+font-weight: bold;
+    
+margin-top: calc(106/992 * 100vw);
+    
+margin-bottom: calc(152/992 * 100vw);
+}
+.alertmodel .return{
+    
+}
+.alertmodel .return img{
+    
+display: block;
+    
+margin: auto;
+    
+height: calc(137/992 * 100vw);
+}
+.section6 .list i{
+     height: calc(350 / 992 * 100vw);
+     width: calc(350 / 992 * 100vw);
+}
+.section6 .list i em{
+    background-size: calc(150 / 992 * 100vw);
+}
+
+
+
+.section3 .imgbox .ani1_1{
+width: calc(295 / 992 * 100vw);
+}
+.section3 .imgbox .ani1_2{  
+width: calc(163 / 992 * 100vw);   
+position: absolute;
+bottom: 0;
+}
+
+
+.section3 .imgbox .ani2_1{width: calc(241 / 992 * 100vw);}
+.section3 .imgbox .ani2_2{width: calc(71/ 992 * 100vw);position: absolute;/* bottom: 0; */left: calc(41/ 992 * 100vw);top: calc(151/ 992 * 100vw);}
+.section3 .imgbox .ani2_3{width: calc(184 / 992 * 100vw);position: absolute;bottom: 0;right: calc(-61/ 992 * 100vw);}
+
+
+
+
+.section3 .imgbox .ani4_1{
+    width: calc(300 / 992 * 100vw);
+}
+.section3 .imgbox .ani4_2{
+    width: calc(80 / 992 * 100vw);
+    position: absolute;
+    right: calc(10 / 992 * 100vw);
+    top: calc(191 / 992 * 100vw);
+}
+
+
+	
+	
+	
+
+.section5_1 .content {
+  background: #fee9ca;
+  border-radius: calc(42/992*100vw) calc(42/992*100vw) calc(42/992*100vw) calc(42/992*100vw);
+  opacity: 1;
+  border: calc(2/992*100vw) solid #848283;
+  padding-top: calc(32/992*100vw);
+  padding-left: calc(32/992*100vw);
+  padding-right: calc(32/992*100vw);
+  zoom: 1;
+  overflow: hidden;
+  padding-bottom: calc(32/992*100vw);
+}
+
+.section5_1 .title b {
+  font-size: calc(34/992*100vw);
+  font-weight: normal;
+  display: block;
+}
+
+.section5_1 .title {
+  font-size: calc(23/992*100vw);
+  font-family: MicrosoftYaHei;
+  color: #000;
+  line-height: 1.4;
+}
+
+.section5_1 .cont1 {
+  zoom: 1;
+  overflow: hidden;
+  padding-bottom: calc(36/992*100vw);
+  margin-bottom: calc(30/992*100vw);
+  border-bottom: calc(1/992*100vw) solid #5D5D5D;
+}
+
+.section5_1 .cont1 .left {
+  float: none;
+  width: 100%;
+}
+
+.section5_1 .cont1 .line {
+  margin-top: calc(28/992*100vw);
+  margin-bottom: calc(20/992*100vw);
+  height: calc(23/992*100vw);
+  background: #5D5D5D;
+  opacity: 1;
+  position: relative;
+}
+
+.section5_1 .cont1 .line i {
+  display: block;
+  background: #8D8D8D linear-gradient(to right, #c35e08, #f8a919);
+  opacity: 1;
+  height: 100%;
+}
+
+.section5_1 .cont1 .vals {
+  font-size: calc(23/992*100vw);
+  font-family: Poppins, Poppins;
+  font-weight: 400;
+  color: #000;
+  padding-bottom: calc(39/992*100vw);
+  display: flex;
+  justify-content: space-between;
+}
+
+.section5_1 .cont1 .addval {
+  height: calc(72/992*100vw);
+  background: #5D5D5D;
+  border-radius: calc(11/992*100vw) calc(11/992*100vw) calc(11/992*100vw) calc(11/992*100vw);
+  opacity: 1;
+  margin-bottom: calc(23/992*100vw);
+  position: relative;
+  overflow: hidden;
+}
+
+.section5_1 .cont1 .addval i.i1 {
+  left: 0;
+}
+
+.section5_1 .cont1 .addval i.i2 {
+  right: 0;
+}
+
+.section5_1 .cont1 .addval i {
+  background: #C5B89E;
+  border-radius: calc(11/992*100vw) calc(11/992*100vw) calc(11/992*100vw) calc(11/992*100vw);
+  opacity: 1;
+  position: absolute;
+  height: 100%;
+  width: calc(92/992*100vw);
+  font-size: calc(56/992*100vw);
+  font-family: Adobe Heiti Std;
+  color: #000000;
+  text-align: center;
+  font-style: normal;
+  top: 0;
+}
+
+.section5_1 .cont1 .addval .words {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: none;
+  font-size: calc(27/992*100vw);
+  font-family: MicrosoftYaHei;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.section5_1 .cont1 .btn {
+  height: calc(79/992*100vw);
+  background: #8D8D8D linear-gradient(to right, #c49135, #f8d2198a);
+  border-radius: calc(11/992*100vw) calc(11/992*100vw) calc(11/992*100vw) calc(11/992*100vw);
+  opacity: 1;
+  width: 100%;
+  border: none;
+  font-size: calc(27/992*100vw);
+  font-family: MicrosoftYaHei;
+  color: #000000;
+}
+
+.section5_1 .cont1 .right {
+  float: none;
+  width: 100%;
+  margin-top: 4vw;
+}
+
+.section5_1 .cont1 .tit {
+  font-size: calc(25/992*100vw);
+  font-family: MicrosoftYaHei;
+  color: #FFFFFF;
+  padding-top: calc(27/992*100vw);
+}
+
+.section5_1 .cont1 .dec {
+  padding-top: calc(65/992*100vw);
+}
+
+.section5_1 .cont1 .dec p {
+  font-size: calc(26/992*100vw);
+  font-family: MicrosoftYaHei;
+  color: #8A8A8A;
+  zoom: 1;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: calc(20/992*100vw);
+}
+
+.section5_1 .cont1 .dec .s1 {}
+
+.section5_1 .cont1 .dec .s2 {
+  font-size: calc(26/992*100vw);
+  font-family: MicrosoftYaHei;
+  color: #FFFFFF;
+}
+
+.section5_1 .cont2 {}
+
+.section5_1 .cont2 .tits {
+  font-size: calc(33/992*100vw);
+  font-family: MicrosoftYaHei;
+  color: #FFFFFF;
+}
+
+.section5_1 .cont2 .left {
+  float: none;
+  width: 100%;
+}
+
+.section5_1 .cont2 .icon img {
+  height: calc(106/992*100vw);
+}
+
+.section5_1 .cont2 .icon {
+  margin-bottom: calc(40/992*100vw);
+  text-align: center;
+  padding-top: calc(9/992*100vw);
+}
+
+.section5_1 .cont2 .btn {}
+
+.section5_1 .cont2 .right {
+  float: none;
+  width: 100%;
+  padding-top: calc(74/992*100vw);
+}
+
+.section5_1 .cont2 .dec {}
+
+.section5_1 .cont2 .dec p .s2 {
+  color: #fff;
+}
+
+.section5_1 .cont2 .dec p {
+  font-size: calc(26/992*100vw);
+  font-family: MicrosoftYaHei;
+  color: #8A8A8A;
+  zoom: 1;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: calc(20/992*100vw);
+}
+
+.section5_1 .cont2 .dec2 {
+  font-size: calc(26/992*100vw);
+  font-family: MicrosoftYaHei;
+  color: #FFFFFF;
+  padding-top: calc(26/992*100vw);
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	.section5_1 .btn {
+    height: calc(79/992*100vw);
+    background: #8D8D8D linear-gradient(to right, #C035C4, #19E4F8);
+    border-radius: calc(11/992*100vw) calc(11/992*100vw) calc(11/992*100vw) calc(11/992*100vw);
+    opacity: 1;
+    width: 100%;
+    border: none;
+    font-size: calc(17/992*100vw);
+    font-family: MicrosoftYaHei;
+    color: #000000;
+}
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+}
+
+

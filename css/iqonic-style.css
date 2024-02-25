@@ -1,0 +1,18 @@
+
+
+/*--------------------------------------------------------------
+                       Banner
+--------------------------------------------------------------*/
+.banner { position: relative; }
+.banner-in { padding: 180px 0 180px !important; }
+.banner_canvas { position: fixed; top: 0; left: 0; height: 100%; width: 100%; }
+#banner { color: #0e0f1a; text-align: center; position: absolute; top: 50%; left: 50%; -moz-transform: translateX(-50%) translateY(-50%) !important; -webkit-transform: translateX(-50%) translateY(-50%); transform: translateX(-50%) translateY(-50%) !important; width: 85%; }
+.banner h6 { font-size: 22px; letter-spacing: 6px; font-family: 'Conv_Hero-Regular'; position: relative; margin-top: 100px; text-transform: uppercase; }
+.banner h1 { font-size: 4.241em; margin-left: 0%; position: relative; }
+.banner h1 span { position: relative; }
+.banner h1 span:before { position: absolute; content: ""; bottom: 0; left: 10px; right: 15px; width: auto; border-radius: 900px; height: 5px; display: inline-block; background: #ff7272; }
+.banner h1 span:after { position: absolute; content: ""; bottom: 0; right: 5px; width: 5px; border-radius: 900px; height: 5px; display: inline-block; background: #ff7272; }
+.banner .button { float: right; margin-top: 30px; position: relative; }
+.banner .line-button { margin-top: 12%; position: absolute; }
+.banner .bann-img img { border-radius: 0; position: absolute; left: -15%; width: 60px; bottom: -120px; }
+
